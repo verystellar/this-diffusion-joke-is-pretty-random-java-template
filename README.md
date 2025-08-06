@@ -2,7 +2,7 @@
 
 You can find the instructions for this lab at [More Than Equations][more-than-equations]. Create a new repository on GitHub to house your code. Be sure to make the repository public so that I can view and grade it.
 
-We will use [Gradle][gradle] to automate common development tasks. Additionally, we will use [JUnit][junit] for unit testing.
+We will use [Gradle][gradle] to automate common development tasks, [JUnit][junit] for unit testing, and [JMH][jmh] for benchmarking.
 
 ## Building the App
 
@@ -32,7 +32,7 @@ The two flags passed to the `run` command hide the noisy output from Gradle. You
 
 ## Running Benchmarks
 
-This repository is set up with [JMH][jmh] for benchmarking code. You can run the benchmarking utility using:
+You can run the benchmarking utility using:
 
 ```bash
 ./gradlew jmh
